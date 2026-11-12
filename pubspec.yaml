@@ -1,0 +1,73 @@
+name: smartbus_mobile
+description: SmartBus Guliston — Aqlli Transport Platformasi (Flutter)
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Navigation
+  go_router: ^13.2.0
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # HTTP & API
+  dio: ^5.4.3+1
+
+  # WebSocket (Socket.IO)
+  socket_io_client: ^2.0.3+1
+
+  # Map (OpenStreetMap, no API key needed)
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+  # Local Storage
+  shared_preferences: ^2.2.3
+
+  # UI & Icons
+  cupertino_icons: ^1.0.8
+  lucide_icons: ^0.257.0
+
+  # Charts
+  fl_chart: ^0.68.0
+
+  # Animations
+  lottie: ^3.1.2
+
+  # Audio (SOS siren)
+  audioplayers: ^6.0.0
+
+  # Text-to-Speech (haydovchi e'lonlari)
+  flutter_tts: ^4.0.2
+
+  # URL launcher (Telegram, maps links)
+  url_launcher: ^6.2.6
+
+  # Image & SVG
+  flutter_svg: ^2.0.10+1
+
+  # Connectivity
+  connectivity_plus: ^6.0.3
+
+  # Intl (date/time formatting)
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  riverpod_generator: ^2.4.0
+  build_runner: ^2.4.9
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+
